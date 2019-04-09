@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+p{
+	font-size: 12px;
+	}
+img{
+	margin-bottom: 20px;
+	}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+	padding: 20px;
+	color: blue;
+	margin-top: 25px;
+}
+video{
+	height: 90%;
+	width: 90%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	}
+
+
+.imgproj {
+	text-align: center;
+		}
+
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	padding: 4px;
+		}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	padding-top: 0px;
+	}
+
+.paraproj {
+	padding-top: 25px;
+	text-align: center;
+	
+}
+.imgproj img{
+	max-width: 100%;
+    height: auto;
+}
+
+/* Couleur des liens survolés */
+
+.text a {
+  color: white;
+}
+
+.text a:hover {
+	color: white;
+}
+
+a{
+	color: black;
+}
+a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+a:active {
+	color: blue !important;
+	text-decoration: none;
+}
+/*éléments fixes structure*/
+.logo{
+	text-align: center;
+	margin-top: 20px;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	height:200px;
+	min-height:180px; 
+}
+
+footer{
+	height: 80px;
+	padding-top: 100px;
+	text-align: center;
+	background-color: #FFFFFF;
+	border-top: 2px #000000;
+	color: blue;
+	}
+/*navigation*/
+
+/*celle ci a aligné ma liste et retiré les puces*/
+nav li{
+	list-style-type: none;
+	float: left;
+	align-content: center;
+}
+
+
+
+/*Reset des marges*/
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav{
+	width: 100%;
+	background-color: black;
+	
+	}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+nav a.current{
+	color: blue;
+}
+
+/* menu dans le bandeau noir*/
+.menu{
+	display: table;
+	margin: 0 auto;
+			}
+/* esthétique du menu */
+
+.menu-ind:hover{
+	border-top: 5px solid #000;
+	background-color: RGBa(000, 000, 000, 100);
+	}
+.menu-exp:hover{
+	border-top: 5px solid #000;
+	background-color: RGBa(000, 000, 000, 100);
+}
+.menu-con:hover{
+	border-top: 5px solid #000;
+	background-color: RGBa(000, 000, 000, 100);
+}
+ /* affichage du menu survolé*/
+nav li:hover a{
+	padding: 15px 30px 20px 30px;
+	}
+/*affichage du menu sur mobile*/
+
+@media screen and (max-width: 780px) {
+  header {
+    height: 50px;
+  }
+	h1 {
+		font-size: 15px;
+		margin: 20px 0px 0px 0px;
+        }	
+	nav li a{
+		font-size: 8px;
+		padding: 10px;
+	}
+	nav li:hover a{
+		padding: 5px 10px 10px 10px;
+	}
+}
+	
+
+/*w éléments de mise en forme de section*/
+
+section{
+	width: 100%;
+	min-height: 300px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	}
+
+.sec{
+	margin: 10px 10%;
+}
+
+/*éléments de mise en forme des DIV*/
+.left{
+	float: left;
+	width: 70%;	
+	padding-top: 10px;
+		
+}
+.right{
+    float: right;
+	width: 60%;
+	text-align: justify;
+	padding-top: 10px;
+	
+}
+
+/*section compétences*/
+
+.cleft, .cright, .sousleft, .sousright{
+	width: 30%;
+	float: left;
+}
+.sec::after, .exp::after, .reco::after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+/*couleurs et délimiteurs*/
+
+#presentation{
+	border-top: 90px solid #ffffff;
+	background-color: RGBa(255, 255, 255, 100);		
+}
+
+#parcours{
+	border-top: 90px solid #ffffff;
+	background-color: RGBa(255, 255, 255, 100);
+}
+
+/* à conserver pour les pages travaux ! blanc ou noir */
+#travaux{
+	border-top: 30px solid #ffffff;
+	background-color: RGBa(0, 0, 0, 100);		
+}
+
+/*responsive image grid page projets*/
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 90px;	
+  	
+}
+
+
+
+/*responsive image grid*/
+
+.col-md-4 img {
+	margin : 15px;
+	}
+
+.colprojets {
+	margin-top: 90px;
+	
+}
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+
+  }
+
+
+/* Create four equal columns that sits next to each other */
+.column1 {
+  flex: 15%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column1 img {
+  margin-top: 50px;	
+  vertical-align: middle;
+  
+}
+
+/*Hover image accueil*/
+.boitebleue {
+  position: relative;
+  width: 60%;
+}
+
+.imgbleue {
+  display: block;
+  width: 282PX;
+  height: 282PX;
+}
+
+.survol {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  height: 60%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: blue;
+}
+
+.boitebleue:hover .survol {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: justify;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+	  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+	  }
+}
+
