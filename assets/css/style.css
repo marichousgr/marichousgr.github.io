@@ -128,7 +128,7 @@ nav a{
 	display: inline-block;
 	text-decoration: none;
 	padding: 20px 30px;
-	color: #FFF;
+	color: #000;
 	text-transform: uppercase;
 	font-size: 15px;
 	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
@@ -146,15 +146,15 @@ nav a.current{
 
 .menu-ind:hover{
 	border-top: 5px solid #000;
-	background-color: RGBa(000, 000, 000, 100);
+	background-color: RGBa(000, 000, 000, 000);
 	}
 .menu-exp:hover{
 	border-top: 5px solid #000;
-	background-color: RGBa(000, 000, 000, 100);
+	background-color: RGBa(000, 000, 000, 000);
 }
 .menu-con:hover{
 	border-top: 5px solid #000;
-	background-color: RGBa(000, 000, 000, 100);
+	background-color: RGBa(000, 000, 000, 000);
 }
  /* affichage du menu survolé*/
 nav li:hover a{
