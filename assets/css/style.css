@@ -142,20 +142,7 @@ nav a.current{
 	display: table;
 	margin: 0 auto;
 			}
-/* esthétique du menu */
 
-.menu-ind:hover{
-	border-top: 5px solid #FFF;
-	background-color: RGBa(000, 000, 000, 100);
-	}
-.menu-exp:hover{
-	border-top: 5px solid #FFF;
-	background-color: RGBa(000, 000, 000, 100);
-}
-.menu-con:hover{
-	border-top: 5px solid #FFF;
-	background-color: RGBa(000, 000, 000, 100);
-}
  /* affichage du menu survolé*/
 nav li:hover a{
 	padding: 15px 30px 20px 30px;
