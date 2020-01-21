@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="Marie Duchâteau - Portfolio en ligne">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="icon" href="images/logo.ico">
+<title>Marie Duch&acirc;teau - Animoflirt</title>
+</head>
+
+<body>
+
+<!--Logo-->
+<header>
+<div class="logo">
+<a href="index.html"><img src="images/logo.jpg" height="163" width="138" alt="logo Marie">
+	</a>
+	</div>
+</header>
+<!--Navigation-->
+<nav>
+	<div class="menu">
+		<ul>
+			<li>
+				<a href="index.html">Accueil</a>
+			</li>
+			<li>
+				<a href="moi.html">Parcours</a>
+			</li>
+			<li>			
+				<a href="contact.html">Contact</a>
+			</li>
+		</ul>	
+	</div>
+</nav>
+		
+<!--Intitulé du projet-->
+<div class="container">
+ <div class="row">
+  <div class="col-md-6">
+  <div class="colprojets">
+	<div class="col">
+		<p><a href="index.html">Marie Duch&acirc;teau </a><span style="color:blue;"> &#124; ANIMOFLIRT</span></p>
+	</div>
+  </div>
+ </div>
+</div>
+</div>
+<!--Bloc sur le projet-->
+<div class="container">
+<div class="imgproj"><article>
+  <section id="presentation">
+	<div class="sec">
+	 
+		   
+			<img src="images/imgpprojets/animo_1.jpg">
+		   <img src="images/imgpprojets/animo_2.jpg">
+       <img src="images/imgpprojets/animo_3.jpg">
+       <img src="images/imgpprojets/animo_4.jpg">
+       <img src="images/imgpprojets/animo_5.jpg">
+       <img src="images/imgpprojets/animo_6.jpg">
+		
+			<div class="paraproj"><p>"Animoflirt" est un projet de campagne publicitaire fictif r&eacute;alis&eacute;e dans
+      le cadre de l'obtention de mon BTS Design Graphique. <a href="https://animoflirt.com/">Animoflirt</a> est un site de rencontre destin&eacute; aux propri&eacute;taires
+      d'animaux.</p></div>
+		
+	</div>
+  </section>
+</article></div>
+</div>
+
+
+</body>
+
+<footer>
+	<p>Marie Duch&acirc;teau - 2020</p>
+</footer>
+</html>
